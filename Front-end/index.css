@@ -1,0 +1,98 @@
+
+/*Config Gerais*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Config do corpo do site*/
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, rgb(34, 145, 209), rgb(253, 254, 255));
+}
+
+
+/*Minha caixa master de tudo*/
+.master {
+    height: 70vh;
+    width: 40%;
+    background-color: rgb(41, 121, 191);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Config do titulo*/
+.master .tit {
+    text-align: center;
+    color: #fff;
+    margin: 15px;
+}
+
+/*Config geral da imagens e legenda*/
+.master .poke {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 54, 182);
+    border-radius: 20px;
+    height: 250px;
+    width: 70%;
+}
+
+/*Cofig especial da imagem*/
+.master .poke img {
+    width: 100%;
+    height: 140px;
+}
+
+
+/*Config especial da legenda*/
+.master .poke .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    color: #fff;
+
+}
+
+/*Config geral botões*/
+.master .passa {
+    margin-top: 30px;
+}
+
+
+/*Config especial bootões*/
+.master .passa .bot {
+    border: none;
+    background-color: blue;
+    border-radius: 25px;
+    height: 45px;
+    width: 100px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Config hover em botões*/
+.master .passa .bot:hover {
+    background-color: rgb(14, 14, 187);
+}
+
+
+/*Responsividade */
+@media screen and (max-width:500px) {
+
+    .master{
+        height: 80vh;
+        width: 80%;
+    }
+    
+}
