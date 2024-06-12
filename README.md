@@ -1,2 +1,2 @@
-# Pokemon-Go
-Treinamento de requisição. 
+*Pokemon GO
+Desenvolvi um site que utiliza a API do Pokémon para exibir informações detalhadas sobre todos os Pokémon disponíveis. O site mostra o nome, altura e poder de cada Pokémon, utilizando a API para obter esses dados em tempo real. Este projeto foi criado como parte de um estudo sobre APIs e diferentes modelos de requisição, explorando tanto o Fetch API quanto o AJAX para realizar chamadas à API do Pokémon e exibir os resultados de forma dinâmica no site. Essa experiência não só me proporcionou um entendimento mais profundo sobre o funcionamento de APIs, mas também me permitiu praticar a integração de serviços externos em aplicações web.
